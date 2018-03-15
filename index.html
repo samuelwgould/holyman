@@ -1,23 +1,68 @@
----
-layout: default
----
+<!DOCTYPE html>
 
-<div class="home">
+<html>
+    
+<head>
+    
+  <title>Holy Man Products</title>
+    
+  <meta charset="UTF-8">
+    
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    
+  <link rel="stylesheet" href="/main.css" type="text/css"> 
+    
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Marcellus+SC');
+  </style> 
+    
+  <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+ 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+  </script>
+    
+</head>
+    
+<body>
+ 
+    <!--navbar-->
+    
+  <div class="w3-bar w3-black w3-medium w3-padding">
+    <a href="#" class="w3-bar-item w3-button w3-hover-none w3-text-grey w3-hover-text-white w3-xlarge w3-text-bold">Holy Man</a>
+      
+    <a href="#" class="w3-bar-item w3-button w3-hover-none w3-text-grey w3-hover-text-white w3-xlarge">Shop</a>
+      
+    <a href="#" class="w3-bar-item w3-button w3-hover-none w3-text-grey w3-hover-text-white w3-xlarge">About</a>
+      
+    <a href="#" class="w3-bar-item w3-button w3-hover-none w3-text-grey w3-hover-text-white w3-xlarge">Contact</a>
+  </div>    
+    
+   <!--main landing-->
+    
+  <div class="jumbotron w3-display-container">   
+    <img class="w3-image" style="" src="http://wp.production.patheos.com/blogs/henrykarlson/files/2017/02/Pambo_of_Nitria.jpeg">
+  </div> 
+    
+    
+       <!--button-->
 
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+   <div class="w3-display-container banner">    
+     <a href="/index.html" class="welcome w3-text-black w3-gray w3-center w3-round-xlarge w3-display-middle w3-container w3-xlarge">Welcome To Holy Man Apothecary Products</a>
+   </div> 
+    
+       <!--product grid-->
+   
+   <div class="w3-row-padding w3-display-container grid">
+     <div class="product w3-col s4 w3-black w3-center w3-padding">
+       <img class="productpic w3-image" src="http://cdn.shopify.com/s/files/1/0221/6898/products/Wisdom-Bright-And-Woodsy-Beard-Oil-Bottle-And-Tube_grande.jpg?v=1516725127"></div>
+     <div class="product w3-col s4 w3-black w3-center w3-padding">     
+       <img class="productpic w3-image" src="http://cdn.shopify.com/s/files/1/0221/6898/products/Wisdom-Bright-And-Woodsy-Beard-Oil-Bottle-And-Tube_grande.jpg?v=1516725127"></div>
+     <div class="product w3-col s4 w3-black w3-center w3-padding">     
+       <img class="productpic w3-image" src="http://cdn.shopify.com/s/files/1/0221/6898/products/Wisdom-Bright-And-Woodsy-Beard-Oil-Bottle-And-Tube_grande.jpg?v=1516725127"></div>
+   </div>
+    
+    
+</body>  
+</html>     
