@@ -32,11 +32,11 @@
   <div class="w3-bar w3-black w3-medium w3-padding">
     <a href="#" class="w3-bar-item w3-button w3-hover-none w3-text-grey w3-hover-text-white w3-xlarge w3-text-bold">Holy Man</a>
       
-    <a href="#" class="w3-bar-item w3-button w3-hover-none w3-text-grey w3-hover-text-white w3-xlarge">Shop</a>
+    <a href="#shop" class="w3-bar-item w3-button w3-hover-none w3-text-grey w3-hover-text-white w3-xlarge">Shop</a>
       
-    <a href="#" class="w3-bar-item w3-button w3-hover-none w3-text-grey w3-hover-text-white w3-xlarge">About</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hover-none w3-text-grey w3-hover-text-white w3-xlarge">About</a>
       
-    <a href="#" class="w3-bar-item w3-button w3-hover-none w3-text-grey w3-hover-text-white w3-xlarge">Contact</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hover-none w3-text-grey w3-hover-text-white w3-xlarge">Contact</a>
   </div>    
     
    <!--main landing-->
@@ -46,23 +46,57 @@
   </div> 
     
     
-       <!--button-->
+       <!--banner-->
 
    <div class="w3-display-container banner">    
-     <div class="welcome w3-text-black w3-gray w3-center w3-round-xlarge w3-display-middle w3-container w3-xlarge">Welcome To Holy Man Apothecary Products</div>
+     <div class="welcome w3-text-white w3-black w3-center w3-display-middle w3-container w3-xlarge">Welcome To Holy Man Apothecary Products</div>
    </div> 
     
        <!--product grid-->
    
-   <div class="w3-row-padding w3-display-container grid">
+   <div id="shop" class="w3-row-padding w3-display-container grid">
      <div class="product w3-col s4 w3-black w3-center w3-padding">
-       <a href="/index.html"><img class="productpic w3-image w3-hover-greyscale" src="http://cdn.shopify.com/s/files/1/0221/6898/products/Wisdom-Bright-And-Woodsy-Beard-Oil-Bottle-And-Tube_grande.jpg?v=1516725127"></a></div>
+       <a href="/index.html"><img class="productpic w3-image w3-hover-opacity" src="http://cdn.shopify.com/s/files/1/0221/6898/products/Wisdom-Bright-And-Woodsy-Beard-Oil-Bottle-And-Tube_grande.jpg?v=1516725127"></a></div>
      <div class="product w3-col s4 w3-black w3-center w3-padding">     
-         <a href="/index.html"><img class="productpic w3-image w3-hover-greyscale" src="http://cdn.shopify.com/s/files/1/0221/6898/products/Wisdom-Bright-And-Woodsy-Beard-Oil-Bottle-And-Tube_grande.jpg?v=1516725127"></a></div>
+         <a href="/index.html"><img class="productpic w3-image w3-hover-opacity" src="http://cdn.shopify.com/s/files/1/0221/6898/products/Wisdom-Bright-And-Woodsy-Beard-Oil-Bottle-And-Tube_grande.jpg?v=1516725127"></a></div>
      <div class="product w3-col s4 w3-black w3-center w3-padding">     
-         <a href="/index.html"><img class="productpic w3-image w3-hover-greyscale" src="http://cdn.shopify.com/s/files/1/0221/6898/products/Wisdom-Bright-And-Woodsy-Beard-Oil-Bottle-And-Tube_grande.jpg?v=1516725127"></a></div>
+         <a href="/index.html"><img class="productpic w3-image w3-hover-opacity" src="http://cdn.shopify.com/s/files/1/0221/6898/products/Wisdom-Bright-And-Woodsy-Beard-Oil-Bottle-And-Tube_grande.jpg?v=1516725127"></a></div>
    </div>
+ 
+      <!--about text-->
+  
+  <div id="about" class="w3-display-container w3-padding-large">
+    <div class="w3-center w3-text-white w3-large abouttext">Holy Man Apothecary was started in 2016 with a simple mission: to bring simple, high quality grooming products to people in a format that was accessable. We strive to only use the best ingridients and to keep things simple. No fillers, no gimmicks, no nonsense. Just solid products you can feel good about using every day. At the foundation of our business model is the notion that a holy man carries himself with integrity, virtue, a sense of higher purpose. Thank you for your interest. 
+    </div>
+  </div>
+  
     
+ <!-- Contact -->
+  <div class="w3-dark-grey w3-padding-large w3-margin-top" id="contact">
+    <h2 class="w3-center w3-text-black cntct">Contact</h2>
+
+    <p class="w3-text-black">Get in touch.</p>
+
+    <form action="/action_page.php" target="_blank">
+      <div class="w3-section">
+        <label class="w3-text-black">Name</label><br>
+        <input class="w3-input w3-border w3-gray" type="text" required name="Name">
+      </div>
+      <div class="w3-section">
+        <label class="w3-text-black">Email</label><br>
+        <input class="w3-input w3-border w3-gray" type="text" required name="Email">
+      </div>
+      <div id="message" class="w3-section">
+        <label class="w3-text-black">Message</label><br>
+        <input class="w3-input w3-border w3-gray" required name="Message">
+      </div>
+      <button type="submit" class="w3-button w3-block w3-center w3-dark-grey w3-round-xlarge w3-text-black">Send</button>
+    </form><br>
+ </div>      
+  
+  <div class= "w3-display-container w3-padding-large w3-dark-gray">    
+    <p class=" w3-display-bottom w3-padding w3-tiny w3-text-black cpy">&copy 2018 Holy Man</p>
+  </div>  
     
 </body>  
 </html>     
